@@ -1,6 +1,8 @@
 # 🚀 Unruly Landing Page Template
 
-![Preview](preview.jpg)  
+This template is live at [https://unruly-landing-page.netlify.app/](https://unruly-landing-page.netlify.app/).
+
+![Preview](./img/preview.jpg)  
 *A modern, responsive landing page template for SaaS startups*
 
 ## ✨ Features
@@ -34,11 +36,11 @@
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/unruly-landing.git
+   git clone https://github.com/Reteecent/unruly-landing-page-template.git
    ```
 2. Navigate to project:
    ```bash
-   cd unruly-landing
+   cd unruly-landing-page-template
    ```
 3. Open in browser:
    ```bash
@@ -89,6 +91,8 @@ img/
 ## 📝 License
 
 MIT License - Free for personal and commercial use
+
+[LICENSE](./LICENSE)
 
 ## 📬 Contact
 
