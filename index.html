@@ -20,9 +20,12 @@
     <!-- Header/Navigation -->
     <header class="header">
         <div class="container">
-            <a href="/" class="logo">
-                <img src="img/logo.svg" alt="Unruly Logo" width="120" height="32">
-            </a>
+            <div class = "brand-container">
+                <a href="/" class="logo">
+                    <img src="img/logo.svg" alt="Unruly Logo" width="120" height="32">
+                </a>
+                <h1 class = "logo">Unruly</h1>
+            </div>
             
             <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
                 <span class="hamburger-line"></span>
@@ -196,13 +199,13 @@
             </div>
             
             <div class="carousel-controls">
-                <button class="carousel-prev" aria-label="Previous testimonial">←</button>
+                <button class="carousel-prev" aria-label="Previous testimonial">&lt;</button>
                 <div class="carousel-dots">
                     <button class="dot active" aria-label="Show testimonial 1"></button>
                     <button class="dot" aria-label="Show testimonial 2"></button>
                     <button class="dot" aria-label="Show testimonial 3"></button>
                 </div>
-                <button class="carousel-next" aria-label="Next testimonial">→</button>
+                <button class="carousel-next" aria-label="Next testimonial">&gt;</button>
             </div>
         </div>
     </section>
@@ -285,14 +288,14 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
+            
+                <div class="footer-col footer-about">
                     <a href="/" class="logo">
                         <img src="img/logo-white.svg" alt="Unruly Logo" width="120" height="32">
                     </a>
                     <p>Empowering startups to grow faster with smart automation and insights.</p>
                 </div>
-                
+            <div class="footer-grid">    
                 <div class="footer-col">
                     <h4>Company</h4>
                     <ul>
@@ -321,8 +324,8 @@
                         <li><a href="#">Security</a></li>
                     </ul>
                 </div>
-                
-                <div class="footer-col">
+            </div>    
+                <div class="footer-connect">
                     <h4>Connect</h4>
                     <div class="social-links">
                         <a href="#" aria-label="X"><img src="img/icon-x.svg" alt="X" width="24" height="24"></a>
@@ -331,7 +334,7 @@
                         <a href="#" aria-label="Instagram"><img src="img/icon-instagram.svg" alt="Instagram" width="24" height="24"></a>
                     </div>
                 </div>
-            </div>
+        
             
             <div class="footer-bottom">
                 <p>&copy; 2025 Unruly, Inc. All rights reserved.</p>
